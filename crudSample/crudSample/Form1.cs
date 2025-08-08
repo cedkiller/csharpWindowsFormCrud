@@ -13,6 +13,7 @@ namespace crudSample
         public Form1()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
             getTable();
             dataGridView1.CellClick += dataGridView1_CellClick;
         }
